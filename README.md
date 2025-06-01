@@ -1,0 +1,2 @@
+# GladTidings
+GladTidings Software Ltd
