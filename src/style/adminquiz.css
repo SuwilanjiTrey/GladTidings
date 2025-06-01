@@ -1,0 +1,94 @@
+.admin-quiz-management {
+  background-color: #f4f4f8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-quiz-management h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.admin-quiz-management table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.admin-quiz-management thead {
+  background-color: #3498db;
+  color: white;
+}
+
+.admin-quiz-management thead tr th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.admin-quiz-management tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.admin-quiz-management tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.admin-quiz-management tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.admin-quiz-management tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e9ecef;
+  color: #495057;
+}
+
+.admin-quiz-management button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-quiz-management button:hover {
+  background-color: #c0392b;
+}
+
+/* Passed/Not Passed Indicators */
+.admin-quiz-management tbody td:nth-child(4) {
+  font-weight: bold;
+}
+
+.admin-quiz-management tbody td:nth-child(4):contains('Yes') {
+  color: #2ecc71;
+}
+
+.admin-quiz-management tbody td:nth-child(4):contains('No') {
+  color: #e74c3c;
+}
+
+.search {
+  padding: 1rem;
+}
+
+
+.search-text {
+  color: rgb(12, 11, 11);
+  border-radius: 100px;
+    height: 25px;
+    width: 500px;
+}

@@ -1,0 +1,35 @@
+.debug-controls {
+    margin: 20px 0;
+  }
+  
+  .debug-btn {
+    margin-right: 10px;
+    padding: 8px 16px;
+  }
+  
+  .eligible-users-section {
+    margin: 20px 0;
+  }
+  
+  .users-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .debug-output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+  
+  .debug-output pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }

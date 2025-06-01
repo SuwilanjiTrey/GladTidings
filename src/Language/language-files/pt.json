@@ -1,0 +1,338 @@
+{
+  "home": "Início",
+  "aboutUs": "Sobre nós",
+  "contactUs": "Contate-nos",
+  
+  "comments for this file": "below are home.js",
+
+  "hero": {
+      "title": "Comece Sua Jornada Bíblica",
+      "subtitle": "Descubra, Aprenda e Cresça em Sua Fé",
+      "getStarted": "Começar",
+      "learnMore": "Saiba Mais"
+  },
+  "features": {
+      "title": "Por Que Escolher Nossa Plataforma?",
+      "structured": {
+          "title": "Aprendizado Estruturado",
+          "desc": "Siga caminhos de estudo cuidadosamente elaborados do básico ao avançado"
+      },
+      "interactive": {
+          "title": "Estudos Interativos",
+          "desc": "Participe de aulas interativas, questionários e discussões"
+      },
+      "community": {
+          "title": "Suporte da Comunidade",
+          "desc": "Junte-se a uma comunidade de aprendizes e compartilhe sua jornada espiritual"
+      },
+      "anywhere": {
+          "title": "Estude em Qualquer Lugar",
+          "desc": "Acesse seus estudos em qualquer dispositivo, a qualquer hora, em qualquer lugar"
+      }
+  },
+  "journey": {
+      "title": "Comece Sua Jornada Hoje",
+      "steps": {
+          "account": {
+              "title": "Criar Conta",
+              "desc": "Cadastre-se e junte-se à nossa comunidade"
+          },
+          "path": {
+              "title": "Escolha Seu Caminho",
+              "desc": "Selecione entre várias trilhas de estudo"
+          },
+          "learn": {
+              "title": "Comece a Aprender",
+              "desc": "Inicie sua jornada de educação bíblica"
+          }
+      }
+  },
+  "featured": {
+      "title": "Conteúdo em Destaque",
+      "basics": {
+          "title": "Fundamentos da Bíblia",
+          "desc": "Perfeito para iniciantes começando sua jornada bíblica"
+      },
+      "advanced": {
+          "title": "Estudos Aprofundados",
+          "desc": "Estudos teológicos avançados e interpretações"
+      },
+      "daily": {
+          "title": "Devocionais Diários",
+          "desc": "Leituras diárias das escrituras e reflexões"
+      },
+      "learnMore": "Saiba Mais →"
+  },
+  "cta": {
+      "title": "Pronto para Aprofundar Seu Entendimento Bíblico?",
+      "subtitle": "Junte-se a milhares de outros em sua jornada de fé e aprendizado",
+      "button": "Comece Hoje"
+  },
+
+  "comments for this authentication": "below are authentication files",
+
+  "signIn": {
+      "title": "Entrar",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Senha",
+      "signInWithEmail": "Entrar com Email",
+      "signInWithGoogle": "Entrar com Google",
+      "googleSignInError": "Por favor, cadastre-se primeiro com email para acessar todos os recursos. Login com Google está disponível apenas para usuários existentes.",
+      "forgotPassword": "Esqueceu a senha?",
+      "resetPassword": "Redefinir sua senha"
+  },
+  "signUp": {
+      "title": "Cadastrar",
+      "elderTitle": "Registro da Igreja",
+      "emailPlaceholder": "Email",
+      "firstNamePlaceholder": "Nome",
+      "lastNamePlaceholder": "Sobrenome",
+      "mobileNumberPlaceholder": "Número de Celular (opcional)",
+      "passwordPlaceholder": "Senha",
+      "confirmPasswordPlaceholder": "Confirmar Senha",
+      "signUpButton": "Cadastrar",
+      "signUpLoading": "Cadastrando...",
+      "passwordMismatchError": "As senhas não coincidem",
+      "signupSuccess": "Cadastro realizado com sucesso! Redirecionando...",
+      "signupError": "Erro ao cadastrar",
+      "selectLanguage": "Selecionar Idioma",
+      "selectChurch": "Selecionar Igreja",
+      "churchNamePlaceholder": "Nome da Igreja",
+      "churchAddressPlaceholder": "Endereço da Igreja"
+  },
+  "messages": {
+      "errorSigningIn": "Erro ao entrar",
+      "invalidResponse": "Resposta inválida do servidor",
+      "noServerResponse": "Sem resposta do servidor. Por favor, tente novamente.",
+      "requestSetupError": "Erro ao configurar requisição. Por favor, tente novamente.",
+      "accountNotFound": "Conta não encontrada. Por favor, cadastre-se primeiro com email.",
+      "checkingAccountError": "Erro ao verificar conta de usuário. Por favor, tente novamente."
+  },
+
+  "emailVerification": {
+      "title": "Verifique Seu Email",
+      "instructions": "Por favor, insira o código de verificação enviado para {{email}}.",
+      "mockCode": "Código de teste: {{code}}",
+      "codePlaceholder": "Digite o código de verificação",
+      "passwordPlaceholder": "Confirme sua senha",
+      "verifyButton": "Verificar Conta",
+      "invalidCode": "Código de verificação inválido.",
+      "verificationFailed": "Verificação falhou. Por favor, tente novamente.",
+      "systemMessage": "Bem-vindo! Estamos muito felizes em tê-lo conosco. Por favor, verifique seu email usando este código: {{code}}"
+  },
+  "Welcome": "Bem-vindo, ",
+  "welcome": "Bem-vindo, {{name}}!",
+  "dashboard": "Painel",
+  "assessments": "Avaliações",
+  "certifications": "Certificações",
+  "settings": "Configurações",
+  "search_courses": "Pesquisar cursos...",
+  "no_courses_found": "Nenhum curso encontrado correspondente a \"{{searchQuery}}\"",
+  "no_courses_available": "Nenhum curso disponível",
+  "lessons_completed": "Lições Completadas",
+  "highest_quiz_score": "Maior Pontuação em Quiz",
+  "certifications_count": "Certificações",
+  "day_streak": "Sequência de Dias",
+  "available_courses": "Cursos Disponíveis",
+  "no_quizzes_available": "Nenhum quiz disponível",
+  "download_certificate": "Baixar",
+  "failed_to_download_certificate": "Falha ao baixar certificado",
+  "login_first": "Por favor, faça login para acessar as configurações",
+  "invalid_quiz_attempt": "Você não pode tentar este quiz",
+  "cannot_attempt_quiz": "Você não pode tentar este quiz. {{message}}",
+  "failed_to_check_quiz_attempt": "Falha ao verificar tentativa do quiz. Por favor, tente novamente.",
+  "noCetifications": "Nenhuma certificação disponível",
+  "bible_quizzes": "Quizzes Bíblicos",
+  "backToCourses": "Voltar aos Cursos",
+  "loading_chapter_content": "Carregando conteúdo do capítulo...",
+  "loading_course": "Carregando conteúdo do curso...",
+  "no_chapter": "Nenhum capítulo disponível para este curso.",
+  "view_quizzes": "Ver Quizzes",
+  "view_chapters": "Ver Capítulos",
+  "completed": "completado",
+  "accessible": "acessível",
+  "locked": "bloqueado",
+  "chapters": "Capítulos",
+  "SignOut": "Sair",
+  "profile updated succesfully!!": "Perfil atualizado com sucesso!!",
+"Verification failed": "Falha na verificação",
+"Update failed": "Falha na atualização",
+"confirm delete?": "Tem certeza que deseja excluir sua conta? Esta ação não pode ser desfeita.",
+"Account deleted successfully, Goodbye!": "Conta excluída com sucesso, Adeus!",
+"Deletion failed. Please try again.": "Falha na exclusão. Por favor, tente novamente.",
+"delete warning details": "A exclusão da sua conta removerá permanentemente todos os seus dados. Esta ação não pode ser desfeita.",
+"Delete Account": "Excluir Conta",
+"Enter your password to confirm": "Digite sua senha para confirmar",
+"Confirm Delete": "Confirmar Exclusão",
+
+  "footer": {
+      "company": {
+          "title": "Empresa",
+          "about": "Sobre Nós",
+          "contact": "Contato",
+          "eldersSignup": "Registro de Anciãos"
+      },
+      "resources": {
+          "title": "Recursos",
+          "blog": "Blog",
+          "help": "Central de Ajuda",
+          "faq": "Perguntas Frequentes"
+      },
+      "social": {
+          "title": "Conecte-se Conosco",
+          "facebook": "Facebook",
+          "twitter": "Twitter",
+          "instagram": "Instagram",
+          "linkedin": "LinkedIn"
+      },
+      "copyright": "© 2025 GladTidings. Todos os direitos reservados."
+  },
+
+  "client": {
+      "congratulations": "Parabéns! Você completou todos os capítulos.",
+      "Next_Chapter": "Próximo Capítulo",
+      "Complete": "Completar",
+      "Maximum_attempts_reached": "Número máximo de tentativas atingido. Contate o administrador para refazer este quiz.",
+      "Quiz_completed": "Quiz completado com sucesso",
+      "Completed_Quizzes": "Quizzes Completados",
+      "Available_Quizzes": "Quizzes Disponíveis",
+      "No_quizzes_available": "Nenhum quiz disponível para este curso",
+      "Quizzes for this Course": "Quizzes para este Curso",
+      "Back to Quizzes": "Voltar aos Quizzes",
+      "Update Profile": "Atualizar Perfil",
+      "Verify Your Identity": "Verifique Sua Identidade",
+      "verification": "Por favor, verifique suas credenciais para acessar as configurações",
+      "Email": "Email",
+      "password": "senha",
+      "forgot password?": "esqueceu a senha?",
+      "Reset your password": "Redefinir sua senha",
+      "Verify": "Verificar",
+      "Profile Settings": "Configurações do Perfil",
+      "Danger Zone": "Zona de Perigo",
+      "pDetails": "Atualize suas informações pessoais",
+      "First Name": "Nome",
+      "Last Name": "Sobrenome",
+      "Mobile Number": "Número de Celular",
+      "warning": "Ações aqui não podem ser desfeitas",
+      "Loading...": "Carregando...",
+      "Quiz Locked": "Quiz Bloqueado",
+      "Please complete": "Por favor, complete todos os capítulos antes de tentar o quiz final.",
+      "Progress": "Progresso",
+      "chapters completed": "capítulos completados",
+      "Quiz Results": "Resultados do Quiz",
+      "Back to Course": "Voltar ao Curso",
+      "Score": "Pontuação",
+      "You Passed!": "Você Passou!",
+      "You Failed! Required": "Você Não Passou! Necessário",
+      "Generate Certificate": "Gerar Certificado",
+      "Generating your certificate...": "Gerando seu certificado...",
+      "Generate success": "Certificado gerado com sucesso! Você pode visualizá-lo e baixá-lo na seção Certificações.",
+      "Retry Generation": "Tentar Gerar Novamente",
+      "Time Remaining": "Tempo Restante",
+      "time warning": "Atenção: Menos de",
+      "minutes remaining!": "minutos restantes!",
+      "timeup": "Tempo esgotado! Enviando quiz...",
+      "Submit Quiz": "Enviar Quiz"
+  },
+  "admin": {
+      "Contact": "Contato",
+      "members": "Todos os membros",
+      "Loading members...": "Carregando membros...",
+      "searchPlaceholder": "Pesquisar por nome de usuário ou título do curso...",
+      "links": {
+          "Client page": "Página do Cliente",
+          "Subscribers": "Membros da Igreja",
+          "Posts": "Posts",
+          "Courses": "Cursos",
+          "Quizzes": "Quizzes",
+          "Certifications": "Certificações"
+      },
+      "table": {
+          "Quiz Attempts Management": "Gerenciamento de Tentativas de Quiz",
+          "User": "Usuário",
+          "Quiz": "Quiz",
+          "Course Name": "Nome do Curso",
+          "Score": "Pontuação",
+          "Passed": "Aprovado",
+          "Attempted At": "Tentado Em",
+          "Actions": "Ações",
+          "Yes": "Sim",
+          "No": "Não",
+          "Reset Attempts": "Resetar Tentativas"
+      },
+      "cert": {
+          "Certificate Editor": "Editor de Certificados",
+          "Course Selection": "Seleção de Curso",
+          "Select Course": "Selecionar Curso",
+          "Template": "Modelo",
+          "Select Template Image": "Selecionar Imagem do Modelo",
+          "Change Template": "Alterar Modelo",
+          "Text Settings": "Configurações de Texto",
+          "Save Certificate": "Salvar Certificado",
+          "Saved Certificates": "Certificados Salvos",
+          "Edit": "Editar",
+          "Delete": "Excluir"
+      },
+      "posts": {
+          "Admin Dashboard": "Painel do Administrador",
+          "Create/Edit Post": "Criar/Editar Post",
+          "Title": "Título",
+          "Select Course": "Selecionar Curso",
+          "Update": "Atualizar",
+          "Create": "Criar",
+          "Post": "Post",
+          "Posts Management": "Gerenciamento de Posts",
+          "Hide Posts": "Ocultar Posts",
+          "Show Posts": "Mostrar Posts",
+          "Show Less": "Mostrar Menos",
+          "Show More": "Mostrar Mais",
+          "posts": "posts",
+          "select course": "Por favor, selecione um curso antes de criar ou atualizar um post.",
+          "failed": "Falha ao salvar/atualizar post"
+      },
+      "course": {
+          "Admin Courses Management": "Gerenciamento de Cursos do Administrador",
+          "Create New Course": "Criar Novo Curso",
+          "Course Title": "Título do Curso",
+          "Course Description": "Descrição do Curso",
+          "image": "Selecionar Imagem do Curso (Opcional)",
+          "Create Course": "Criar Curso",
+          "Create New Quiz": "Criar Novo Quiz",
+          "Select Course": "Selecionar Curso",
+          "empty": "Deixe vazio para sem limite de tempo",
+          "Quiz Title": "Título do Quiz",
+          "time": "Limite de tempo em minutos (opcional)",
+          "Add Questions": "Adicionar Perguntas",
+          "Multiple Choice": "Múltipla Escolha",
+          "Enter Question Text": "Digite o Texto da Pergunta",
+          "Correct Answer": "Resposta Correta",
+          "Add Option": "Adicionar Opção",
+          "Add Question to Quiz": "Adicionar Pergunta ao Quiz",
+          "Questions in this Quiz": "Perguntas neste Quiz",
+          "Create Quiz": "Criar Quiz",
+          "Existing Courses": "Cursos Existentes",
+          "Pass Criteria": "Critérios de Aprovação",
+    "Save": "Salvar",
+    "Cancel": "Cancelar",
+    "Edit Pass Criteria": "Editar Critérios de Aprovação",
+    "Delete Course": "Excluir Curso",
+    "Existing Quizzes": "Quizzes Existentes",
+    "Course": "Curso",
+    "Time limit": "Limite de Tempo",
+    "No time limit": "Sem Limite de Tempo",
+    "New pass criteria": "Novos Critérios de Aprovação",
+    "Quiz Description": "Descrição do Quiz",
+    "Pass criteria updated successfully": "Critérios de aprovação atualizados com sucesso",
+    "Failed to update pass criteria": "Falha ao atualizar os critérios de aprovação",
+    "Failed to create course": "Falha ao criar o curso",
+    "no permission": "Você não tem permissão para excluir este curso.",
+    "Course deleted successfully": "Curso excluído com sucesso",
+    "Failed to delete course. Please try again.": "Falha ao excluir o curso. Por favor, tente novamente.",
+    "Failed to create quiz": "Falha ao criar o quiz"
+  }
+
+}
+
+
+  
+}

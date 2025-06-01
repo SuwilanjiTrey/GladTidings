@@ -1,0 +1,126 @@
+{
+    "home": "Hem",
+    "aboutUs": "Om oss",
+    "contactUs": "Kontakta oss",
+    
+    "hero": {
+      "title": "Påbörja din bibliska resa",
+      "subtitle": "Upptäck, lär dig och väx i din tro",
+      "getStarted": "Kom igång",
+      "learnMore": "Läs mer"
+    },
+    
+    "features": {
+      "title": "Varför välja vår plattform?",
+      "structured": {
+        "title": "Strukturerat lärande",
+        "desc": "Följ noggrant utformade studiespår från nybörjare till avancerad"
+      },
+      "interactive": {
+        "title": "Interaktiva studier",
+        "desc": "Delta i interaktiva lektioner, frågesporter och diskussioner"
+      },
+      "community": {
+        "title": "Gemenskapsstöd",
+        "desc": "Gå med i en gemenskap av elever och dela din andliga resa"
+      },
+      "anywhere": {
+        "title": "Studera var som helst",
+        "desc": "Få tillgång till dina studier på vilken enhet som helst, när som helst, var som helst"
+      }
+    },
+    
+    "journey": {
+      "title": "Börja din resa idag",
+      "steps": {
+        "account": {
+          "title": "Skapa konto",
+          "desc": "Registrera dig och gå med i vår gemenskap"
+        },
+        "path": {
+          "title": "Välj din väg",
+          "desc": "Välj mellan olika studiespår"
+        },
+        "learn": {
+          "title": "Börja lära dig",
+          "desc": "Påbörja din bibliska utbildningsresa"
+        }
+      }
+    },
+    
+    "signIn": {
+      "title": "Logga in",
+      "emailPlaceholder": "E-post",
+      "passwordPlaceholder": "Lösenord",
+      "signInWithEmail": "Logga in med e-post",
+      "signInWithGoogle": "Logga in med Google",
+      "forgotPassword": "Glömt lösenord?",
+      "resetPassword": "Återställ ditt lösenord"
+    },
+    
+    "signUp": {
+      "title": "Registrera dig",
+      "elderTitle": "Församlingsregistrering",
+      "emailPlaceholder": "E-post",
+      "firstNamePlaceholder": "Förnamn",
+      "lastNamePlaceholder": "Efternamn",
+      "mobileNumberPlaceholder": "Mobilnummer (valfritt)",
+      "passwordPlaceholder": "Lösenord",
+      "confirmPasswordPlaceholder": "Bekräfta lösenord",
+      "signUpButton": "Registrera dig",
+      "signUpLoading": "Registrerar...",
+      "passwordMismatchError": "Lösenorden matchar inte",
+      "selectLanguage": "Välj språk",
+      "selectChurch": "Välj församling",
+      "churchNamePlaceholder": "Församlingsnamn",
+      "churchAddressPlaceholder": "Församlingsadress"
+    },
+    
+    "dashboard": "Instrumentpanel",
+    "assessments": "Utvärderingar",
+    "certifications": "Certifieringar",
+    "settings": "Inställningar",
+    "search_courses": "Sök kurser...",
+    "no_courses_found": "Inga kurser hittades som matchar \"{{searchQuery}}\"",
+    "no_courses_available": "Inga kurser tillgängliga",
+    "lessons_completed": "Avklarade lektioner",
+    "highest_quiz_score": "Högsta provresultat",
+    "day_streak": "Daglig svit",
+    
+    "client": {
+      "congratulations": "Grattis! Du har slutfört alla kapitel.",
+      "Next_Chapter": "Nästa kapitel",
+      "Complete": "Slutför",
+      "Quiz_completed": "Prov slutfört framgångsrikt",
+      "Completed_Quizzes": "Slutförda prov",
+      "Available_Quizzes": "Tillgängliga prov",
+      "Update Profile": "Uppdatera profil",
+      "Verify Your Identity": "Verifiera din identitet",
+      "Profile Settings": "Profilinställningar",
+      "Danger Zone": "Riskzon",
+      "warning": "Åtgärder här kan inte ångras"
+    },
+    
+    "footer": {
+      "company": {
+        "title": "Företag",
+        "about": "Om oss",
+        "contact": "Kontakt",
+        "eldersSignup": "Äldsteregistrering"
+      },
+      "resources": {
+        "title": "Resurser",
+        "blog": "Blogg",
+        "help": "Hjälpcenter",
+        "faq": "Vanliga frågor"
+      },
+      "social": {
+        "title": "Följ oss",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn"
+      },
+      "copyright": "© 2025 GladTidings. Alla rättigheter förbehållna."
+    }
+    }

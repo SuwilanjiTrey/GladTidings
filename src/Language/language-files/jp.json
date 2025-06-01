@@ -1,0 +1,338 @@
+{
+  "home": "ホーム",
+  "aboutUs": "私たちについて",
+  "contactUs": "お問い合わせ",
+
+  "comments for this file": "以下はhome.jsです",
+
+  "hero": {
+      "title": "聖書の旅を始めましょう",
+      "subtitle": "信仰の中で発見し、学び、成長する",
+      "getStarted": "始める",
+      "learnMore": "詳しく見る"
+  },
+  "features": {
+      "title": "当プラットフォームを選ぶ理由",
+      "structured": {
+          "title": "体系的な学習",
+          "desc": "初心者から上級者まで、丁寧に作られた学習パスに従って学びます"
+      },
+      "interactive": {
+          "title": "インタラクティブな学習",
+          "desc": "対話型レッスン、クイズ、ディスカッションに参加"
+      },
+      "community": {
+          "title": "コミュニティサポート",
+          "desc": "学習者のコミュニティに参加し、霊的な旅を共有"
+      },
+      "anywhere": {
+          "title": "どこでも学習",
+          "desc": "いつでもどこでも、どのデバイスでもアクセス可能"
+      }
+  },
+  "journey": {
+      "title": "今日から旅を始めましょう",
+      "steps": {
+          "account": {
+              "title": "アカウント作成",
+              "desc": "登録してコミュニティに参加"
+          },
+          "path": {
+              "title": "パスを選択",
+              "desc": "様々な学習コースから選択"
+          },
+          "learn": {
+              "title": "学習開始",
+              "desc": "聖書教育の旅を始める"
+          }
+      }
+  },
+  "featured": {
+      "title": "注目のコンテンツ",
+      "basics": {
+          "title": "聖書の基礎",
+          "desc": "聖書の旅を始める初心者に最適"
+      },
+      "advanced": {
+          "title": "深い学び",
+          "desc": "高度な神学研究と解釈"
+      },
+      "daily": {
+          "title": "デイリーデボーション",
+          "desc": "日々の聖書朗読と黙想"
+      },
+      "learnMore": "もっと見る →"
+  },
+  "cta": {
+      "title": "聖書の理解を深めませんか？",
+      "subtitle": "数千人の仲間と共に信仰と学びの旅に参加しましょう",
+      "button": "今すぐ始める"
+  },
+
+  "comments for this authentication": "以下は認証ファイルです",
+
+  "signIn": {
+      "title": "ログイン",
+      "emailPlaceholder": "メールアドレス",
+      "passwordPlaceholder": "パスワード",
+      "signInWithEmail": "メールアドレスでログイン",
+      "signInWithGoogle": "Googleでログイン",
+      "googleSignInError": "すべての機能にアクセスするには、まずメールアドレスで登録してください。Googleログインは既存ユーザーのみ利用可能です。",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "resetPassword": "パスワードをリセット"
+  },
+  "signUp": {
+      "title": "新規登録",
+      "elderTitle": "教会登録",
+      "emailPlaceholder": "メールアドレス",
+      "firstNamePlaceholder": "名",
+      "lastNamePlaceholder": "姓",
+      "mobileNumberPlaceholder": "携帯電話番号（任意）",
+      "passwordPlaceholder": "パスワード",
+      "confirmPasswordPlaceholder": "パスワード確認",
+      "signUpButton": "登録",
+      "signUpLoading": "登録中...",
+      "passwordMismatchError": "パスワードが一致しません",
+      "signupSuccess": "登録成功！リダイレクト中...",
+      "signupError": "登録エラー",
+      "selectLanguage": "言語選択",
+      "selectChurch": "教会選択",
+      "churchNamePlaceholder": "教会名",
+      "churchAddressPlaceholder": "教会住所"
+  },
+  "messages": {
+      "errorSigningIn": "ログインエラー",
+      "invalidResponse": "サーバーからの無効な応答",
+      "noServerResponse": "サーバーからの応答がありません。もう一度お試しください。",
+      "requestSetupError": "リクエスト設定エラー。もう一度お試しください。",
+      "accountNotFound": "アカウントが見つかりません。まずメールアドレスで登録してください。",
+      "checkingAccountError": "ユーザーアカウントの確認中にエラーが発生しました。もう一度お試しください。"
+  },
+
+  "emailVerification": {
+      "title": "メール認証",
+      "instructions": "{{email}}に送信された認証コードを入力してください。",
+      "mockCode": "テストコード: {{code}}",
+      "codePlaceholder": "認証コードを入力",
+      "passwordPlaceholder": "パスワードを確認",
+      "verifyButton": "アカウントを認証",
+      "invalidCode": "無効な認証コードです。",
+      "verificationFailed": "認証に失敗しました。もう一度お試しください。",
+      "systemMessage": "ようこそ！ご登録ありがとうございます。このコードでメールアドレスを認証してください：{{code}}"
+  },
+  "Welcome": "ようこそ、",
+  "welcome": "ようこそ、{{name}}さん！",
+  "dashboard": "ダッシュボード",
+  "assessments": "評価",
+  "certifications": "認定証",
+  "settings": "設定",
+  "search_courses": "コースを検索...",
+  "no_courses_found": "「{{searchQuery}}」に一致するコースが見つかりません",
+  "no_courses_available": "利用可能なコースがありません",
+  "lessons_completed": "完了したレッスン",
+  "highest_quiz_score": "最高クイズスコア",
+  "certifications_count": "認定証",
+  "day_streak": "連続日数",
+  "available_courses": "利用可能なコース",
+  "no_quizzes_available": "利用可能なクイズがありません",
+  "download_certificate": "ダウンロード",
+  "failed_to_download_certificate": "認定証のダウンロードに失敗しました",
+  "login_first": "設定にアクセスするにはログインしてください",
+  "invalid_quiz_attempt": "このクイズは受験できません",
+  "cannot_attempt_quiz": "このクイズは受験できません。{{message}}",
+  "failed_to_check_quiz_attempt": "クイズ受験の確認に失敗しました。もう一度お試しください。",
+  "noCetifications": "利用可能な認定証がありません",
+  "bible_quizzes": "聖書クイズ",
+  "backToCourses": "コースに戻る",
+  "loading_chapter_content": "チャプター内容を読み込み中...",
+  "loading_course": "コース内容を読み込み中...",
+  "no_chapter": "このコースには利用可能なチャプターがありません。",
+  "view_quizzes": "クイズを見る",
+  "view_chapters": "チャプターを見る",
+  "completed": "完了",
+  "accessible": "アクセス可能",
+  "locked": "ロック中",
+  "chapters": "チャプター",
+  "SignOut": "ログアウト",
+  "profile updated succesfully!!": "プロフィールが正常に更新されました!!",
+"Verification failed": "認証に失敗しました",
+"Update failed": "更新に失敗しました",
+"confirm delete?": "アカウントを削除してもよろしいですか？この操作は取り消せません。",
+"Account deleted successfully, Goodbye!": "アカウントが正常に削除されました。さようなら！",
+"Deletion failed. Please try again.": "削除に失敗しました。もう一度お試しください。",
+"delete warning details": "アカウントを削除すると、すべてのデータが完全に削除されます。この操作は取り消せません。",
+"Delete Account": "アカウントを削除",
+"Enter your password to confirm": "確認のためパスワードを入力してください",
+"Confirm Delete": "削除を確認",
+
+  "footer": {
+      "company": {
+          "title": "会社",
+          "about": "会社概要",
+          "contact": "お問い合わせ",
+          "eldersSignup": "長老登録"
+      },
+      "resources": {
+          "title": "リソース",
+          "blog": "ブログ",
+          "help": "ヘルプセンター",
+          "faq": "よくある質問"
+      },
+      "social": {
+          "title": "ソーシャルメディア",
+          "facebook": "Facebook",
+          "twitter": "Twitter",
+          "instagram": "Instagram",
+          "linkedin": "LinkedIn"
+      },
+      "copyright": "© 2025 GladTidings. All rights reserved."
+  },
+
+  "client": {
+      "congratulations": "おめでとうございます！全てのチャプターを完了しました。",
+      "Next_Chapter": "次のチャプター",
+      "Complete": "完了",
+      "Maximum_attempts_reached": "最大試行回数に達しました。クイズを再受験するには管理者に連絡してください。",
+      "Quiz_completed": "クイズが正常に完了しました",
+      "Completed_Quizzes": "完了したクイズ",
+      "Available_Quizzes": "利用可能なクイズ",
+      "No_quizzes_available": "このコースには利用可能なクイズがありません",
+      "Quizzes for this Course": "このコースのクイズ",
+      "Back to Quizzes": "クイズに戻る",
+      "Update Profile": "プロフィール更新",
+      "Verify Your Identity": "本人確認",
+      "verification": "設定にアクセスするには認証情報を確認してください",
+      "Email": "メールアドレス",
+      "password": "パスワード",
+      "forgot password?": "パスワードをお忘れですか？",
+      "Reset your password": "パスワードをリセット",
+      "Verify": "確認",
+      "Profile Settings": "プロフィール設定",
+      "Danger Zone": "危険エリア",
+      "pDetails": "個人情報を更新",
+      "First Name": "名",
+      "Last Name": "姓",
+      "Mobile Number": "携帯電話番号",
+      "warning": "この操作は取り消せません",
+      "Loading...": "読み込み中...",
+      "Quiz Locked": "クイズがロックされています",
+      "Please complete": "最終クイズを受験する前に全てのチャプターを完了してください。",
+      "Progress": "進捗",
+      "chapters completed": "完了したチャプター",
+      "Quiz Results": "クイズ結果",
+      "Back to Course": "コースに戻る",
+      "Score": "スコア",
+      "You Passed!": "合格です！",
+      "You Failed! Required": "不合格です！必要なスコア：",
+      "Generate Certificate": "認定証を生成",
+      "Generating your certificate...": "認定証を生成中...",
+      "Generate success": "認定証が正常に生成されました！認定証セクションで確認とダウンロードができます。",
+      "Retry Generation": "再生成",
+      "Time Remaining": "残り時間",
+      "time warning": "警告：残り",
+      "minutes remaining!": "分です！",
+      "timeup": "時間切れです！クイズを提出中...",
+      "Submit Quiz": "クイズを提出"
+  },
+  "admin": {
+      "Contact": "お問い合わせ",
+      "members": "全メンバー",
+      "Loading members...": "メンバーを読み込み中...",
+      "searchPlaceholder": "ユーザー名またはコースタイトルで検索...",
+      "links": {
+          "Client page": "クライアントページ",
+          "Subscribers": "教会メンバー",
+          "Posts": "投稿",
+          "Courses": "コース",
+          "Quizzes": "クイズ",
+          "Certifications": "認定証"
+      },
+      "table": {
+          "Quiz Attempts Management": "クイズ受験管理",
+          "User": "ユーザー",
+          "Quiz": "クイズ",
+          "Course Name": "コース名",
+          "Score": "スコア",
+          "Passed": "合格",
+          "Attempted At": "受験日時",
+          "Actions": "アクション",
+          "Yes": "はい",
+          "No": "いいえ",
+          "Reset Attempts": "受験回数をリセット"
+      },
+      "cert": {
+          "Certificate Editor": "認定証エディター",
+          "Course Selection": "コース選択",
+          "Select Course": "コースを選択",
+          "Template": "テンプレート",
+          "Select Template Image": "テンプレート画像を選択",
+          "Change Template": "テンプレートを変更",
+          "Text Settings": "テキスト設定",
+          "Save Certificate": "認定証を保存",
+          "Saved Certificates": "保存された認定証",
+          "Edit": "編集",
+          "Delete": "削除"
+      },
+      "posts": {
+          "Admin Dashboard": "管理者ダッシュボード",
+          "Create/Edit Post": "投稿作成/編集",
+          "Title": "タイトル",
+          "Select Course": "コースを選択",
+          "Update": "更新",
+          "Create": "作成",
+          "Post": "投稿",
+          "Posts Management": "投稿管理",
+          "Hide Posts": "投稿を非表示",
+          "Show Posts": "投稿を表示",
+          "Show Less": "表示を減らす",
+          "Show More": "もっと見る",
+          "posts": "投稿",
+          "select course": "投稿の作成または更新の前にコースを選択してください。",
+          "failed": "投稿の保存/更新に失敗しました"
+  },
+  "course": {
+    "Admin Courses Management": "管理者コース管理",
+    "Create New Course": "新しいコースを作成",
+    "Course Title": "コースタイトル",
+    "Course Description": "コース説明",
+    "image": "コース画像を選択（オプション）",
+    "Create Course": "コースを作成",
+    "Create New Quiz": "新しいクイズを作成",
+    "Select Course": "コースを選択",
+    "empty": "   制限時間を設定しない場合は空欄のままにしてください",
+    "Quiz Title": "クイズタイトル",
+    "time": "制限時間（分、オプション）",
+    "Add Questions": "質問を追加",
+    "Multiple Choice": "選択式",
+    "Enter Question Text": "質問文を入力",
+    "Correct Answer": "正解",
+    "Add Option": "選択肢を追加",
+    "Add Question to Quiz": "クイズに質問を追加",
+    "Questions in this Quiz": "このクイズの質問",
+    "Create Quiz": "クイズを作成",
+    "Existing Courses": "既存のコース",
+    "Pass Criteria": "合格基準",
+    "Save": "保存",
+    "Cancel": "キャンセル",
+    "Edit Pass Criteria": "合格基準を編集",
+    "Delete Course": "コースを削除",
+    "Existing Quizzes": "既存のクイズ",
+    "Course": "コース",
+    "Time limit": "制限時間",
+    "No time limit": "制限時間なし",
+    "New pass criteria": "新しい合格基準",
+    "Quiz Description": "クイズの説明",
+    "Pass criteria updated successfully": "合格基準が正常に更新されました",
+    "Failed to update pass criteria": "合格基準の更新に失敗しました",
+    "Failed to create course": "コースの作成に失敗しました",
+    "no permission": "このコースを削除する権限がありません。",
+    "Course deleted successfully": "コースが正常に削除されました",
+    "Failed to delete course. Please try again.": "コースの削除に失敗しました。再試行してください。",
+    "Failed to create quiz": "クイズの作成に失敗しました"
+}
+
+}
+
+
+  
+}

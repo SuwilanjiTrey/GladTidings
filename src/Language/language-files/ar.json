@@ -1,0 +1,337 @@
+{
+  "home": "الرئيسية",
+  "aboutUs": "من نحن",
+  "contactUs": "اتصل بنا",
+  
+  "comments for this file": "below are home.js",
+
+  "hero": {
+      "title": "ابدأ رحلتك الكتابية",
+      "subtitle": "اكتشف وتعلم وانمو في إيمانك",
+      "getStarted": "ابدأ الآن",
+      "learnMore": "اعرف المزيد"
+  },
+  "features": {
+      "title": "لماذا تختار منصتنا؟",
+      "structured": {
+          "title": "تعلم منظم",
+          "desc": "اتبع مسارات دراسية مصممة بعناية من المبتدئين إلى المتقدمين"
+      },
+      "interactive": {
+          "title": "دراسات تفاعلية",
+          "desc": "شارك في دروس تفاعلية واختبارات ومناقشات"
+      },
+      "community": {
+          "title": "دعم المجتمع",
+          "desc": "انضم إلى مجتمع من المتعلمين وشارك رحلتك الروحية"
+      },
+      "anywhere": {
+          "title": "ادرس في أي مكان",
+          "desc": "الوصول إلى دراساتك على أي جهاز، في أي وقت، في أي مكان"
+      }
+  },
+  "journey": {
+      "title": "ابدأ رحلتك اليوم",
+      "steps": {
+          "account": {
+              "title": "إنشاء حساب",
+              "desc": "سجل وانضم إلى مجتمعنا"
+          },
+          "path": {
+              "title": "اختر مسارك",
+              "desc": "اختر من بين مسارات الدراسة المختلفة"
+          },
+          "learn": {
+              "title": "ابدأ التعلم",
+              "desc": "ابدأ رحلة تعليمك الكتابي"
+          }
+      }
+  },
+  "featured": {
+      "title": "المحتوى المميز",
+      "basics": {
+          "title": "أساسيات الكتاب المقدس",
+          "desc": "مثالي للمبتدئين الذين يبدأون رحلتهم الكتابية"
+      },
+      "advanced": {
+          "title": "دراسات متعمقة",
+          "desc": "دراسات لاهوتية متقدمة وتفسيرات"
+      },
+      "daily": {
+          "title": "تأملات يومية",
+          "desc": "قراءات وتأملات كتابية يومية"
+      },
+      "learnMore": "اعرف المزيد ←"
+  },
+  "cta": {
+      "title": "هل أنت مستعد لتعميق فهمك الكتابي؟",
+      "subtitle": "انضم إلى آلاف الآخرين في رحلة الإيمان والتعلم",
+      "button": "ابدأ اليوم"
+  },
+
+  "comments for this authentication": "below are authentication files",
+
+  "signIn": {
+      "title": "تسجيل الدخول",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "passwordPlaceholder": "كلمة المرور",
+      "signInWithEmail": "تسجيل الدخول بالبريد الإلكتروني",
+      "signInWithGoogle": "تسجيل الدخول باستخدام جوجل",
+      "googleSignInError": "يرجى التسجيل بالبريد الإلكتروني أولاً للوصول إلى جميع الميزات. تسجيل الدخول بجوجل متاح فقط للمستخدمين الحاليين.",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "resetPassword": "إعادة تعيين كلمة المرور"
+  },
+  "signUp": {
+      "title": "إنشاء حساب",
+      "elderTitle": "تسجيل الكنيسة",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "firstNamePlaceholder": "الاسم الأول",
+      "lastNamePlaceholder": "اسم العائلة",
+      "mobileNumberPlaceholder": "رقم الجوال (اختياري)",
+      "passwordPlaceholder": "كلمة المرور",
+      "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+      "signUpButton": "إنشاء حساب",
+      "signUpLoading": "جاري التسجيل...",
+      "passwordMismatchError": "كلمات المرور غير متطابقة",
+      "signupSuccess": "تم التسجيل بنجاح! جاري التحويل...",
+      "signupError": "خطأ في التسجيل",
+      "selectLanguage": "اختر اللغة",
+      "selectChurch": "اختر الكنيسة",
+      "churchNamePlaceholder": "اسم الكنيسة",
+      "churchAddressPlaceholder": "عنوان الكنيسة"
+  },
+  "messages": {
+      "errorSigningIn": "خطأ في تسجيل الدخول",
+      "invalidResponse": "استجابة غير صالحة من الخادم",
+      "noServerResponse": "لا يوجد استجابة من الخادم. يرجى المحاولة مرة أخرى.",
+      "requestSetupError": "خطأ في إعداد الطلب. يرجى المحاولة مرة أخرى.",
+      "accountNotFound": "الحساب غير موجود. يرجى التسجيل بالبريد الإلكتروني أولاً.",
+      "checkingAccountError": "خطأ في التحقق من حساب المستخدم. يرجى المحاولة مرة أخرى."
+  },
+  "emailVerification": {
+      "title": "تحقق من بريدك الإلكتروني",
+      "instructions": "يرجى إدخال رمز التحقق المرسل إلى {{email}}.",
+      "mockCode": "رمز تجريبي: {{code}}",
+      "codePlaceholder": "أدخل رمز التحقق",
+      "passwordPlaceholder": "تأكيد كلمة المرور",
+      "verifyButton": "تحقق من الحساب",
+      "invalidCode": "رمز التحقق غير صالح.",
+      "verificationFailed": "فشل التحقق. يرجى المحاولة مرة أخرى.",
+      "systemMessage": "مرحباً! يسعدنا انضمامك إلينا. يرجى التحقق من بريدك الإلكتروني باستخدام هذا الرمز: {{code}}"
+  },
+  "Welcome": "مرحباً، ",
+  "welcome": "مرحباً، {{name}}!",
+  "dashboard": "لوحة التحكم",
+  "assessments": "التقييمات",
+  "certifications": "الشهادات",
+  "settings": "الإعدادات",
+  "search_courses": "البحث عن الدورات...",
+  "no_courses_found": "لم يتم العثور على دورات تطابق \"{{searchQuery}}\"",
+  "no_courses_available": "لا توجد دورات متاحة",
+  "lessons_completed": "الدروس المكتملة",
+  "highest_quiz_score": "أعلى درجة في الاختبار",
+  "certifications_count": "الشهادات",
+  "day_streak": "أيام متتالية",
+  "available_courses": "الدورات المتاحة",
+  "no_quizzes_available": "لا توجد اختبارات متاحة",
+  "download_certificate": "تحميل",
+  "failed_to_download_certificate": "فشل تحميل الشهادة",
+  "login_first": "يرجى تسجيل الدخول للوصول إلى الإعدادات",
+  "invalid_quiz_attempt": "لا يمكنك محاولة هذا الاختبار",
+  "cannot_attempt_quiz": "لا يمكنك محاولة هذا الاختبار. {{message}}",
+  "failed_to_check_quiz_attempt": "فشل التحقق من محاولة الاختبار. يرجى المحاولة مرة أخرى.",
+  "noCetifications": "لا توجد شهادات متاحة",
+  "bible_quizzes": "اختبارات الكتاب المقدس",
+  "backToCourses": "العودة إلى الدورات",
+  "loading_chapter_content": "جاري تحميل محتوى الفصل...",
+  "loading_course": "جاري تحميل محتوى الدورة...",
+  "no_chapter": "لا توجد فصول متاحة لهذه الدورة.",
+  "view_quizzes": "عرض الاختبارات",
+  "view_chapters": "عرض الفصول",
+  "completed": "مكتمل",
+  "accessible": "متاح",
+  "locked": "مقفل",
+  "chapters": "الفصول",
+  "SignOut": "تسجيل الخروج",
+  "profile updated succesfully!!": "تم تحديث الملف الشخصي بنجاح!!",
+"Verification failed": "فشلت عملية التحقق",
+"Update failed": "فشل التحديث",
+"confirm delete?": "هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+"Account deleted successfully, Goodbye!": "تم حذف الحساب بنجاح، مع السلامة!",
+"Deletion failed. Please try again.": "فشلت عملية الحذف. يرجى المحاولة مرة أخرى.",
+"delete warning details": "سيؤدي حذف حسابك إلى إزالة جميع بياناتك بشكل دائم. لا يمكن التراجع عن هذا الإجراء.",
+"Delete Account": "حذف الحساب",
+"Enter your password to confirm": "أدخل كلمة المرور للتأكيد",
+"Confirm Delete": "تأكيد الحذف",
+
+  "footer": {
+      "company": {
+          "title": "الشركة",
+          "about": "من نحن",
+          "contact": "اتصل بنا",
+          "eldersSignup": "تسجيل الشيوخ"
+      },
+      "resources": {
+          "title": "الموارد",
+          "blog": "المدونة",
+          "help": "مركز المساعدة",
+          "faq": "الأسئلة الشائعة"
+      },
+      "social": {
+          "title": "تواصل معنا",
+          "facebook": "فيسبوك",
+          "twitter": "تويتر",
+          "instagram": "انستغرام",
+          "linkedin": "لينكد إن"
+      },
+      "copyright": "© 2025 GladTidings. جميع الحقوق محفوظة."
+  },
+
+  "client": {
+      "congratulations": "تهانينا! لقد أكملت جميع الفصول.",
+      "Next_Chapter": "الفصل التالي",
+      "Complete": "إكمال",
+      "Maximum_attempts_reached": "تم الوصول إلى الحد الأقصى من المحاولات. اتصل بالمسؤول لإعادة الاختبار.",
+      "Quiz_completed": "تم إكمال الاختبار بنجاح",
+      "Completed_Quizzes": "الاختبارات المكتملة",
+      "Available_Quizzes": "الاختبارات المتاحة",
+      "No_quizzes_available": "لا توجد اختبارات متاحة لهذه الدورة",
+      "Quizzes for this Course": "اختبارات هذه الدورة",
+      "Back to Quizzes": "العودة إلى الاختبارات",
+      "Update Profile": "تحديث الملف الشخصي",
+      "Verify Your Identity": "تحقق من هويتك",
+      "verification": "يرجى التحقق من بيانات اعتمادك للوصول إلى الإعدادات",
+      "Email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "forgot password?": "نسيت كلمة المرور؟",
+      "Reset your password": "إعادة تعيين كلمة المرور",
+      "Verify": "تحقق",
+      "Profile Settings": "إعدادات الملف الشخصي",
+      "Danger Zone": "منطقة الخطر",
+      "pDetails": "تحديث معلوماتك الشخصية",
+      "First Name": "الاسم الأول",
+      "Last Name": "اسم العائلة",
+      "Mobile Number": "رقم الجوال",
+      "warning": "الإجراءات هنا لا يمكن التراجع عنها",
+      "Loading...": "جاري التحميل...",
+      "Quiz Locked": "الاختبار مقفل",
+      "Please complete": "يرجى إكمال جميع الفصول قبل محاولة الاختبار النهائي.",
+      "Progress": "التقدم",
+      "chapters completed": "الفصول المكتملة",
+      "Quiz Results": "نتائج الاختبار",
+      "Back to Course": "العودة إلى الدورة",
+      "Score": "النتيجة",
+      "You Passed!": "لقد نجحت!",
+      "You Failed! Required": "لقد رسبت! مطلوب",
+      "Generate Certificate": "إنشاء الشهادة",
+      "Generating your certificate...": "جاري إنشاء شهادتك...",
+      "Generate success": "تم إنشاء الشهادة بنجاح! يمكنك عرضها وتحميلها من قسم الشهادات.",
+      "Retry Generation": "إعادة المحاولة",
+      "Time Remaining": "الوقت المتبقي",
+      "time warning": "تحذير: أقل من",
+      "minutes remaining!": "دقائق متبقية!",
+      "timeup": "انتهى الوقت! جاري تسليم الاختبار...",
+      "Submit Quiz": "تسليم الاختبار"
+  },
+  "admin": {
+    "Contact": "الاتصال",
+    "members": "جميع الأعضاء",
+    "Loading members...": "جارٍ تحميل الأعضاء...",
+    "searchPlaceholder": "ابحث باسم المستخدم أو عنوان الدورة...",
+    "links": {
+      "Client page": "صفحة العميل",
+      "Subscribers": "أعضاء الكنيسة",
+      "Posts": "المنشورات",
+      "Courses": "الدورات",
+      "Quizzes": "الاختبارات",
+      "Certifications": "الشهادات"
+    },
+    "table": {
+      "Quiz Attempts Management": "إدارة محاولات الاختبار",
+      "User": "المستخدم",
+      "Quiz": "الاختبار",
+      "Course Name": "اسم الدورة",
+      "Score": "النتيجة",
+      "Passed": "ناجح",
+      "Attempted At": "وقت المحاولة",
+      "Actions": "الإجراءات",
+      "Yes": "نعم",
+      "No": "لا",
+      "Reset Attempts": "إعادة تعيين المحاولات"
+    },
+    "cert": {
+      "Certificate Editor": "محرر الشهادات",
+      "Course Selection": "اختيار الدورة",
+      "Select Course": "اختر الدورة",
+      "Template": "القالب",
+      "Select Template Image": "اختر صورة القالب",
+      "Change Template": "تغيير القالب",
+      "Text Settings": "إعدادات النص",
+      "Save Certificate": "حفظ الشهادة",
+      "Saved Certificates": "الشهادات المحفوظة",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "posts": {
+      "Admin Dashboard": "لوحة تحكم المسؤول",
+      "Create/Edit Post": "إنشاء/تعديل منشور",
+      "Title": "العنوان",
+      "Select Course": "اختر الدورة",
+      "Update": "تحديث",
+      "Create": "إنشاء",
+      "Post": "المنشور",
+      "Posts Management": "إدارة المنشورات",
+      "Hide Posts": "إخفاء المنشورات",
+      "Show Posts": "عرض المنشورات",
+      "Show Less": "عرض أقل",
+      "Show More": "عرض المزيد",
+      "posts": "المنشورات",
+      "select course": "يرجى اختيار دورة قبل إنشاء أو تحديث منشور.",
+      "failed": "فشل في حفظ/تحديث المنشور"
+    },
+    "course": {
+      "Admin Courses Management": "إدارة دورات المسؤول",
+      "Create New Course": "إنشاء دورة جديدة",
+      "Course Title": "عنوان الدورة",
+      "Course Description": "وصف الدورة",
+      "image": "اختر صورة الدورة (اختياري)",
+      "Create Course": "إنشاء الدورة",
+      "Create New Quiz": "إنشاء اختبار جديد",
+      "Select Course": "اختر الدورة",
+      "empty": "اتركه فارغًا لعدم وجود حد زمني",
+      "Quiz Title": "عنوان الاختبار",
+      "time": "الحد الزمني بالدقائق (اختياري)",
+      "Add Questions": "إضافة أسئلة",
+      "Multiple Choice": "اختيار من متعدد",
+      "Enter Question Text": "أدخل نص السؤال",
+      "Correct Answer": "الإجابة الصحيحة",
+      "Add Option": "إضافة خيار",
+      "Add Question to Quiz": "إضافة السؤال إلى الاختبار",
+      "Questions in this Quiz": "الأسئلة في هذا الاختبار",
+      "Create Quiz": "إنشاء اختبار",
+      "Existing Courses": "الدورات الحالية",
+      "Pass Criteria": "معايير النجاح",
+      "Save": "حفظ",
+      "Cancel": "إلغاء",
+      "Edit Pass Criteria": "تعديل معايير النجاح",
+      "Delete Course": "حذف الدورة",
+      "Existing Quizzes": "الاختبارات الحالية",
+      "Course": "الدورة",
+      "Time limit": "الحد الزمني",
+      "No time limit": "بدون حد زمني",
+      "New pass criteria": "معايير نجاح جديدة",
+      "Quiz Description": "وصف الاختبار",
+      "Pass criteria updated successfully": "تم تحديث معايير النجاح بنجاح",
+      "Failed to update pass criteria": "فشل في تحديث معايير النجاح",
+      "Failed to create course": "فشل في إنشاء الدورة",
+      "no permission": "ليس لديك إذن بحذف هذه الدورة.",
+      "Course deleted successfully": "تم حذف الدورة بنجاح",
+      "Failed to delete course. Please try again.": "فشل في حذف الدورة. يرجى المحاولة مرة أخرى.",
+      "Failed to create quiz": "فشل في إنشاء الاختبار"
+    }
+
+}
+
+
+  
+}

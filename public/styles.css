@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#editor {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+}
+
+#editor:empty:before {
+    content: attr(placeholder);
+    color: #aaa;
+}
+
+#toolbar {
+    margin-bottom: 10px;
+}
+
+#toolbar button {
+    margin-right: 5px;
+}

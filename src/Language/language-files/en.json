@@ -1,0 +1,343 @@
+{
+      "home": "Home",
+      "aboutUs": "About us",
+      "contactUs": "Contact us",
+      
+
+"comments for this file" : "below are home.js",
+
+    "hero": {
+      "title": "Begin Your Biblical Journey",
+      "subtitle": "Discover, Learn, and Grow in Your Faith",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Our Platform?",
+      "structured": {
+        "title": "Structured Learning",
+        "desc": "Follow carefully crafted study paths from beginners to advanced"
+      },
+      "interactive": {
+        "title": "Interactive Studies",
+        "desc": "Engage with interactive lessons, quizzes, and discussions"
+      },
+      "community": {
+        "title": "Community Support",
+        "desc": "Join a community of learners and share your spiritual journey"
+      },
+      "anywhere": {
+        "title": "Study Anywhere",
+        "desc": "Access your studies on any device, anytime, anywhere"
+      }
+    },
+    "journey": {
+      "title": "Start Your Journey Today",
+      "steps": {
+        "account": {
+          "title": "Create Account",
+          "desc": "Sign up and join our community"
+        },
+        "path": {
+          "title": "Choose Your Path",
+          "desc": "Select from various study tracks"
+        },
+        "learn": {
+          "title": "Begin Learning",
+          "desc": "Start your biblical education journey"
+        }
+      }
+    },
+    "featured": {
+      "title": "Featured Content",
+      "basics": {
+        "title": "Bible Basics",
+        "desc": "Perfect for beginners starting their biblical journey"
+      },
+      "advanced": {
+        "title": "Deep Dive Studies",
+        "desc": "Advanced theological studies and interpretations"
+      },
+      "daily": {
+        "title": "Daily Devotionals",
+        "desc": "Daily scripture readings and reflections"
+      },
+      "learnMore": "Learn More →"
+    },
+    "cta": {
+      "title": "Ready to Deepen Your Biblical Understanding?",
+      "subtitle": "Join thousands of others on their journey of faith and learning",
+      "button": "Start Today"
+    },
+
+"comments for this authentication" : "below are authentication files",
+
+    "signIn": {
+      "title": "Sign In",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "signInWithEmail": "Sign In with Email",
+      "signInWithGoogle": "Sign In with Google",
+      "googleSignInError": "Please sign up with email first to access all features. Google sign-in is only available for existing users.",
+      "forgotPassword": "Forgot password?",
+      "resetPassword": "Reset your password"
+    },
+    "signUp": {
+      "title": "Sign Up",
+      "elderTitle": "Church registration",
+      "emailPlaceholder": "Email",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "mobileNumberPlaceholder": "Mobile Number (optional)",
+      "passwordPlaceholder": "Password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "signUpButton": "Sign Up",
+      "signUpLoading": "Signing Up...",
+      "passwordMismatchError": "Passwords don't match",
+      "signupSuccess": "Sign-up successful! Redirecting...",
+      "signupError": "Error signing up",
+      "selectLanguage": "Select Language",
+      "selectChurch": "Select Church",
+      "churchNamePlaceholder": "Church Name",
+      "churchAddressPlaceholder": "church Address"
+    },
+    "messages": {
+      "errorSigningIn": "Error signing in",
+      "invalidResponse": "Invalid response from server",
+      "noServerResponse": "No response from server. Please try again.",
+      "requestSetupError": "Error setting up request. Please try again.",
+      "accountNotFound": "Account not found. Please sign up with email first.",
+      "checkingAccountError": "Error checking user account. Please try again."
+    }
+    ,
+
+    "emailVerification": {
+      "title": "Verify Your Email",
+      "instructions": "Please enter the verification code sent to {{email}}.",
+      "mockCode": "Mock code: {{code}}",
+      "codePlaceholder": "Enter verification code",
+      "passwordPlaceholder": "Confirm your password",
+      "verifyButton": "Verify Account",
+      "invalidCode": "Invalid verification code.",
+      "verificationFailed": "Verification failed. Please try again.",
+      "systemMessage": "Welcome! We're so glad to have you. Please verify your email using this code: {{code}}"
+    },
+ 
+      "Welcome":"Welcome, ",
+      "welcome": "Welcome, {{name}}!",
+      "dashboard": "Dashboard",
+      "assessments": "Assessments",
+      "certifications": "Certifications",
+      "settings": "Settings",
+      "search_courses": "Search courses...",
+      "no_courses_found": "No courses found matching \"{{searchQuery}}\"",
+      "no_courses_available": "No courses available",
+      "lessons_completed": "Lessons Completed",
+      "highest_quiz_score": "Highest Quiz Score",
+      "certifications_count": "Certifications",
+      "day_streak": "Day Streak",
+      "available_courses": "Available Courses",
+      "no_quizzes_available": "No quizzes available",
+      "download_certificate": "Download",
+      "failed_to_download_certificate": "Failed to download certificate",
+      "login_first": "Please log in to access settings",
+      "invalid_quiz_attempt": "You cannot attempt this quiz",
+      "cannot_attempt_quiz": "You cannot attempt this quiz. {{message}}",
+      "failed_to_check_quiz_attempt": "Failed to check quiz attempt. Please try again.",
+      "noCetifications": "No certifications available",
+      "bible_quizzes": "Bible Quizzes",
+      "backToCourses": "Back to Courses",
+      "loading_chapter_content": "Loading chapter content...",
+      "loading_course": "Loading course content...",
+      "no_chapter": "No chapters available for this course.",
+      "view_quizzes" : "View Quizzes",
+      "view_chapters" : "View Chapters",
+      "completed": "completed",
+      "accessible": "accessible",
+      "locked": "locked",
+      "chapters": "Chapters",
+      "SignOut": " Sign Out ",
+      "profile updated succesfully!!":"profile updated succesfully!!",
+      "Verification failed":"Verification failed",
+
+      "Update failed":"Update failed",
+      "confirm delete?":"Are you sure you want to delete your account? This action cannot be undone.",
+      "Account deleted successfully, Goodbye!":"Account deleted successfully, Goodbye!",
+      "Deletion failed. Please try again.":"Deletion failed. Please try again.",
+      "delete warning details":"Deleting your account will permanently remove all your data. This action cannot be undone.",
+      "Delete Account":"Delete Account",
+      "Enter your password to confirm":"Enter your password to confirm",
+      "Confirm Delete":"Confirm Delete",
+
+      "footer": {
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "contact": "Contact",
+      "eldersSignup": "Elder Registration"
+    },
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "help": "Help Center",
+      "faq": "FAQ"
+    },
+    "social": {
+      "title": "Connect With Us",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© 2025 GladTidings. All rights reserved."
+  },
+
+  "client" :{
+    "congratulations": "Congratulations! You`ve completed all chapters.",
+    "Next_Chapter":"Next Chapter",
+    "Complete":"Complete",
+    "Maximum_attempts_reached":"Maximum attempts reached. Contact admin to retake this quiz.",
+    "Quiz_completed":"Quiz completed successfully",
+    "Completed_Quizzes":"Completed Quizzes",
+    "Available_Quizzes":"Available Quizzes",
+    "No_quizzes_available": "No quizzes available for this course",
+    "Quizzes for this Course":"Quizzes for this Course",
+    "Back to Quizzes": "Back to Quizzes",
+    "Update Profile":"Update Profile",
+    "Verify Your Identity":"Verify Your Identity",
+    "verification":"Please verify your credentials to access settings",
+    "Email":"Email",
+    "password":"password",
+    "forgot password?":"forgot password?",
+    "Reset your password":"Reset your password",
+    "Verify":"Verify",
+    "Profile Settings":"Profile Settings",
+    "Danger Zone":"Danger Zone",
+    "pDetails":"Update your personal information",
+    "First Name":"First Name",
+    "Last Name":"Last Name",
+    "Mobile Number":"Mobile Number",
+    "warning":"Actions here can`t be undone",
+    "Loading...":"Loading...",
+    "Quiz Locked":"Quiz Locked",
+    "Please complete":"Please complete all chapters before attempting the final quiz.",
+    "Progress":"Progress",
+    "chapters completed":"chapters completed",
+    "Quiz Results":"Quiz Results",
+    "Back to Course":"Back to Course",
+    "Score":"Score",
+    "You Passed!":"You Passed!",
+    "You Failed! Required":"You Failed! Required",
+    "Generate Certificate":"Generate Certificate",
+    "Generating your certificate...": "Generating your certificate...",
+    "Generate success":"Certificate generated successfully! You can view and download it from the Certifications section.",
+    "Retry Generation":"Retry Generation",
+    "Time Remaining":"Time Remaining",
+    "time warning":"Warning: Less than",
+    "minutes remaining!":"minutes remaining!",
+    "timeup":"Time`s up! Submitting quiz...",
+    "Submit Quiz":"Submit Quiz"
+  },
+  "admin": {
+    "Contact":"Contact",
+    "members":"All members",
+    "Loading members...":"Loading members...",
+    "searchPlaceholder":"Search by user name or course title...",
+    "links": {
+      "Client page":"Client page",
+      "Subscribers":"Church members",
+      "Posts":"Posts",
+      "Courses":"Courses",
+      "Quizzes":"Quizzes",
+      "Certifications":"Certifications"
+    },
+    "table": {
+      "Quiz Attempts Management":"Quiz Attempts Management",
+      "User":"User",
+      "Quiz":"Quiz",
+      "Course Name":"Course Name",
+      "Score":"Score",
+      "Passed":"Passed",
+      "Attempted At":"Attempted At",
+      "Actions":"Actions",
+      "Yes":"yes",
+      "No":"No",
+      "Reset Attempts":"Reset Attempts"
+    },
+    "cert":{
+      "Certificate Editor":"Certificate Editor",
+      "Course Selection":"Course Selection",
+      "Select Course":"Select Course",
+      "Template":"Template",
+      "Select Template Image":"Select Template Image",
+      "Change Template":"Change Template",
+      "Text Settings":"Text Settings",
+      "Save Certificate":"Save Certificate",
+      "Saved Certificates":"Saved Certificates",
+      "Edit":"Edit",
+      "Delete":"Delete"
+    },
+    "posts":{
+      "Admin Dashboard":"Admin Dashboard",
+      "Create/Edit Post":"Create/Edit Post",
+      "Title":"Title",
+      "Select Course":"Select Course",
+      "Update":"Update",
+      "Create":"Create",
+      "Post":"Post",
+      "Posts Management":"Posts Management",
+      "Hide Posts":"Hide Posts",
+      "Show Posts":"Show Posts",
+      "Show Less":"Show Less",
+      "Show More":"Show More",
+      "posts":"posts",
+      "select course":"Please select a course before creating or updating a post.",
+      "failed":"Failed to save/update post"
+    },
+    "course":{
+      "Admin Courses Management":"Admin Courses Management",
+      "Create New Course":"Create New Course",
+      "Course Title":"Course Title",
+      "Course Description":"Course Description",
+      "image":"Select Course Image (Optional)",
+      "Create Course":"Create Course",
+      "Create New Quiz":"Create New Quiz",
+      "Select Course":"Select Course",
+      "empty":"   Leave empty for no time limit",
+      "Quiz Title":"Quiz Title",
+      "time":"Time limit in minutes (optional)",
+      "Add Questions":"Add Questions",
+      "Multiple Choice":"Multiple Choice",
+      "Enter Question Text":"Enter Question Text",
+      "Correct Answer":"Correct Answer",
+      "Add Option":"Add Option",
+      "Add Question to Quiz":"Add Question to Quiz",
+      "Questions in this Quiz":"Questions in this Quiz",
+      "Create Quiz":"Create Quiz",
+      "Existing Courses":"Existing Courses",
+      "Pass Criteria":"Pass Criteria",
+      "Save":"Save",
+      "Cancel":"Cancel",
+      "Edit Pass Criteria":"Edit Pass Criteria",
+      "Delete Course":"Delete Course",
+      "Existing Quizzes":"Existing Quizzes",
+      "Course":"Course",
+      "Time limit":"Time limit",
+      "No time limit":"No time limit",
+      "New pass criteria":"New pass criteria",
+      "Quiz Description":"Quiz Description",
+      "Pass criteria updated successfully":"Pass criteria updated successfully",
+      "Failed to update pass criteria":"Failed to update pass criteria",
+      "Failed to create course":"Failed to create course",
+      "no permission":"You do not have permission to delete this course.",
+      "Course deleted successfully":"Course deleted successfully",
+      "Failed to delete course. Please try again.":"Failed to delete course. Please try again.",
+      "Failed to create quiz":"Failed to create quiz"
+    }
+
+  }
+  
+ 
+    
+  }
+  

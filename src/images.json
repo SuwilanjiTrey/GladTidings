@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "id": "img1",
+      "name": "Bible Study",
+      "path": "/images/img1.jpeg",
+      "description": "Open Bible with study materials",
+      "category": "study"
+    },
+    {
+      "id": "img2",
+      "name": "Church History",
+      "path": "/images/img3.jpeg",
+      "description": "Historic church architecture",
+      "category": "history"
+    },
+    {
+      "id": "img3",
+      "name": "Prayer",
+      "path": "/images/img2.jpeg", 
+      "description": "Hands folded in prayer",
+      "category": "spiritual"
+    },
+    {
+      "id": "img4",
+      "name": "Leadership",
+      "path": "/images/img4.jpeg",
+      "description": "Group discussion in church",
+      "category": "leadership"
+    },
+    {
+      "id": "img5",
+      "name": "Worship",
+      "path": "/images/img5.jpeg",
+      "description": "Worship service",
+      "category": "worship"
+    }
+  ]
+}

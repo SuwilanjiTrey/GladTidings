@@ -1,0 +1,388 @@
+/* Enhanced certificate.css */
+
+.editor-containers {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+  overflow: hidden; /* Prevent scrolling on the container */
+}
+
+/* Enhanced Navigation */
+.editor-nav {
+  background: white;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  gap: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+
+.nav-link:hover {
+  color: #3182ce;
+  background-color: #ebf8ff;
+}
+
+/* Main Editor Layout */
+.editor-main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  height: calc(100vh - 60px); /* Subtract nav height */
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+
+/* Controls Panel */
+.editor-control {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  position: sticky;
+  top: 70px;
+}
+
+.editor-title {
+  font-family: Georgia, serif;
+  font-size: 1.75rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.section-titles {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.control-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Upload Zone Styling */
+.upload-zone {
+  border: 2px dashed #cbd5e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: #f7fafc;
+  margin-bottom: 1rem;
+}
+
+.upload-zone:hover {
+  border-color: #3182ce;
+  background: #ebf8ff;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  color: #4a5568;
+}
+
+.upload-label span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Text Controls */
+.text-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.control-input,
+.control-select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.control-input:focus,
+.control-select:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  outline: none;
+}
+
+/* Range Input Styling */
+.control-range {
+  flex: 1;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  appearance: none;
+}
+
+.control-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #3182ce;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.range-value {
+  font-size: 0.9rem;
+  color: #4a5568;
+  min-width: 3.5rem;
+  text-align: right;
+  font-weight: 500;
+}
+
+/* Color Picker */
+.control-color {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-color:hover {
+  border-color: #3182ce;
+}
+
+/* Save Button */
+.save-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.save-button:hover {
+  background: #2c5282;
+  transform: translateY(-1px);
+}
+
+.save-button:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Canvas Area */
+.canvas-wrapper {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: calc(100vh - 80px);
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor-canvas {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.editor-canvas:active {
+  cursor: grabbing;
+}
+
+/* Certificate Drawer */
+.certificate-drawer {
+  position: fixed;
+  right: -420px;
+  top: 0;
+  width: 360px;
+    right: -360px;
+  height: 100vh;
+  background: white;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+
+}
+
+.certificate-drawer.open {
+  right: 0;
+}
+
+.drawer-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer-header h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.drawer-close {
+  background: none;
+  border: none;
+  color: #4a5568;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.drawer-close:hover {
+  background: #f7fafc;
+  color: #e53e3e;
+}
+
+.drawer-content {
+  padding: 1.5rem;
+  overflow-y: auto;
+  height: calc(100vh - 80px);
+}
+
+/* Certificate Cards */
+.certificate-card {
+  margin-bottom: 2rem;
+}
+
+.certificate-card h3 {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  color: #2d3748;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.certificate-item {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.certificate-preview {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.certificate-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.action-button {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.action-button.edit {
+  background: #3182ce;
+  color: white;
+}
+
+.action-button.edit:hover {
+  background: #2c5282;
+}
+
+.action-button.delete {
+  background: #f56565;
+  color: white;
+}
+
+.action-button.delete:hover {
+  background: #c53030;
+}
+
+/* Drawer Toggle Button */
+.drawer-toggle {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #3182ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.drawer-toggle:hover {
+  background: #2c5282;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
