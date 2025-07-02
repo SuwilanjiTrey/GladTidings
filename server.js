@@ -47,7 +47,7 @@ app.use(cors({
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: '022802',
+  password: '',
   database: 'GladTidings',
   multipleStatements: true,
   waitForConnections: true,
