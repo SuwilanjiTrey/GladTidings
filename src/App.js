@@ -20,6 +20,8 @@ import './style/App.css';
 import LanguageSwitcher from './Language/GoogleTranslate';
 import './Language/config';
 import { useTranslation } from 'react-i18next';
+import Contact from "./Contact.jsx";
+import About from "./About.jsx";
 
 
 
@@ -29,20 +31,7 @@ const hasAdminPrivileges = (role) => {
   return normalizedRole === 'admin' || normalizedRole === 'subadmin';
 };
 
-// About Us and Contact Us components remain the same
-const AboutUs = () => (
-  <div>
-    <h1 className="page-title">About Us</h1>
-    <p className="page-content">We are a company dedicated to providing excellent services to our clients.</p>
-  </div>
-);
 
-const ContactUs = () => (
-  <div>
-    <h1 className="page-title">Contact Us</h1>
-    <p className="page-content">Get in touch with us at Mukelebai.Mukelebai@unza.zm</p>
-  </div>
-);
 
 function App() {
   const [user, setUser] = useState(null);
@@ -331,8 +320,8 @@ function App() {
             />
 
             {/* Other static routes */}
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/verify-email" element={<EmailVerification />} />
             <Route path="/password-recovery" element={<PasswordRecovery />} />
             <Route path="/auto-award" element={<SystemAward />} />

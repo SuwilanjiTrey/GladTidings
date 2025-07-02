@@ -1,5 +1,5 @@
 {
-  "name": "bibleapp",
+  "name": "gladtidings",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "bcrypt": "^5.1.1",
     "canvas": "^2.11.2",
     "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "firebase": "^10.14.1",
     "firebase-admin": "^13.0.1",
@@ -22,9 +23,9 @@
     "is-url": "^1.2.4",
     "lodash": "^4.17.21",
     "lucide-react": "^0.453.0",
-    "mammoth": "^1.8.0",
+    "mammoth": "^1.9.1",
     "multer": "^1.4.5-lts.1",
-    "mysql2": "^3.11.5",
+    "mysql2": "^3.14.1",
     "node-schedule": "^2.1.1",
     "nodemailer": "^6.9.16",
     "pdf-parse": "^1.1.1",
@@ -67,9 +68,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/is-hotkey": "^0.1.10",
-    "@types/is-url": "^1.2.32"
   }
 }

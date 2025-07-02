@@ -47,8 +47,8 @@ app.use(cors({
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: '',
-  database: 'bibleapp',
+  password: '022802',
+  database: 'GladTidings',
   multipleStatements: true,
   waitForConnections: true,
   connectionLimit: 50,  // Adjust based on your expected concurrent users
